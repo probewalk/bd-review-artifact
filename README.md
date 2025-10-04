@@ -4,6 +4,8 @@ This repository is an **anonymized, review-only** artifact for the WWW research 
 We have removed any information that could reveal author identity to preserve **double-blind fairness**.  
 Please do **not** redistribute this URL outside the PC/AC.
 
+This repository is frozen for the WWW review period.
+No further commits will be made until the review process ends.
 ---
 
 ## 1. What’s included / not included
