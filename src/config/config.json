@@ -1,0 +1,19 @@
+{
+    "out_dir": "./data/paper/test",
+    "seed": 42,
+    "random_piar_num": 0,
+    "pairs_num": 10,
+    "datasets": [
+    {
+      "name": "toy",
+      "graph": "./data/real-data/toy.txt"
+    }
+  ],
+  "methods": [
+    {"method": "probewalk","params": {"L": 80,"R": 50,"G": 30,"m": 300}},
+    {"method": "probewalk","params": {"L": 80,"R": 50,"G": 20,"m": 200}},
+    {"method": "probewalk","params": {"L": 80,"R": 50,"G": 10,"m": 100}},
+    {"method": "probewalk","params": {"L": 80,"R": 50,"G": 10,"m": 50}},
+    {"method": "probewalk","params": {"L": 80,"R": 50,"G": 8,"m": 40}}
+  ]
+}

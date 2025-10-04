@@ -1,0 +1,19 @@
+{
+    "out_dir": "/path/to/output",
+    "seed": 42,
+    "random_piar_num": 0,
+    "pairs_num": 10,
+    "datasets": [
+    {
+      "name": "graph_name",
+      "graph": "/path/to/graph.txt"
+    }
+  ],
+  "methods": [
+    {"method": "rmq","params": {"L": 100,"R": 100,"G": 30,"m": 500}},
+    {"method": "rmq","params": {"L": 100,"R": 100,"G": 20,"m": 100}},
+    {"method": "rmq","params": {"L": 100,"R": 100,"G": 15,"m": 70}},
+    {"method": "rmq","params": {"L": 100,"R": 100,"G": 10,"m": 50}},
+    {"method": "rmq","params": {"L": 100,"R": 50,"G": 8,"m": 40}}
+  ]
+}
