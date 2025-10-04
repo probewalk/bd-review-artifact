@@ -42,6 +42,9 @@ pip install -r requirements.txt
 
 #Change into the project root (if not already there):
 cd <path-to-project-root>
+
+# Add project root to PYTHONPATH
+export PYTHONPATH=$(pwd):$PYTHONPATH
 ```
 
 **(2) Run the toy experiment**
